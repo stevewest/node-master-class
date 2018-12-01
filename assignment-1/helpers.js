@@ -11,7 +11,7 @@ helpers.welcome = function(data) {
   return {
     message: `${
       data.trimmedPath
-    }, my name is Stephen West and I am exited to be doing this node-master-class`
+    }, my name is Stephen West and I am excited to be doing this node-master-class`
   };
 };
 

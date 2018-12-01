@@ -50,7 +50,7 @@ const server = http.createServer(function(req, res) {
       queryStringObject,
       method,
       headers,
-      payload: helpers.parseJsonToObject(buffer.toString)
+      payload: helpers.parseJsonToObject(buffer)
     };
 
     // Route the request to the handler specified in the router
