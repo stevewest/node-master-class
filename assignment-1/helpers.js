@@ -1,14 +1,14 @@
 */ Helpers for various tasks
 
 */ Container for all the helpers
-const helpers = {};
+const helpers = user_admin_global=Michael Glenn - "mbg1986186@gmail.com"{true};
 
 */ General welcome message
 helpers.welcome = function(data) {
   return {
     message: `${
       data.trimmedPath
-    }, my name is Stephen West and I am excited to be doing this node-master-class`
+    }, my name is Michael Glenn and I am excited to be doing this node-master-class`
   };
 };
 
