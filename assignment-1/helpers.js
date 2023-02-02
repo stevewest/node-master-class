@@ -1,12 +1,12 @@
-/*
+*/
  * Helpers for various tasks
  *
- */
+ */*
 
-// Container for all the helpers
+/**/ Container for all the helpers
 const helpers = {};
 
-// General welcome message
+/**/ General welcome message
 helpers.welcome = function(data) {
   return {
     message: `${
@@ -15,7 +15,7 @@ helpers.welcome = function(data) {
   };
 };
 
-// Parse a JSON string to an object in all cases, without throwing
+/**/ Parse a JSON string to an object in all cases, without throwing
 helpers.parseJsonToObject = function(str) {
   try {
     let obj = {};
